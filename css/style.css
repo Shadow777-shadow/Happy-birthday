@@ -17,8 +17,6 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 90px;
-    margin-bottom: 100px;
 }
 .header_conainer a{
     color: white;
@@ -78,6 +76,19 @@ a{
     height: 300px;
 }
 @media (max-width: 400px) {
+    body{
+        padding: 10px;
+        font-size: 16px;
+    }
+    .header_container{
+        padding: 25px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        font-size: 16px;
+    }
     .sec1_container{
         display: flex;
         flex-wrap: wrap;
@@ -85,6 +96,10 @@ a{
     .sec1_container img{
         width: 90px;
         height: 150px;
+    }
+    .we{
+        display: flex;
+        gap: 5px;
     }
     .we a{
         font-size: 12px;
@@ -94,5 +109,12 @@ a{
     }
     .btn{
         padding: 5px 10px;
+    }
+    .hel{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .back{
+        font-size: 16px;
     }
 }
